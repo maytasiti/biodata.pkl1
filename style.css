@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(walpaper.jpg);
+    background-size: cover;
+}
+.biodata{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+.icon{
+    margin: 0%;
+    font-size: 50px;
+}
+.ig{
+    color: black;
+    transition: 0.5s;
+    padding: 15px;
+}
+.yt{
+    color: rgb(0,0,0);
+    transition: 0.5s;
+    padding: 15px;   
+}
+.fb{
+    color: #111111e7;
+    transition: 0.5s;
+    padding: 15px;
+}
+header{
+    background-color: rgb(255,193,143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kanan{
+    margin-right: 40px;
+}
+.tanpadekorasi{
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(250,230,200);
+    border-radius: 25px;
+    color: black;
+}
+.ig:hover{
+    color: rgb(255, 0, 179);
+}
+.yt:hover{
+    color: rgb(255,0,0);
+}
+.fb:hover{
+    color: rgb(0,38,255);
+}
+.tanpadekorasi:hover{
+    opacity: 0.5;
+}
+.kotak{
+    display: flex;
+    background-color: rgb(255,193,143);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+    padding: 50px;
+    border-radius: 30px;
+}
+.wajah{
+    width: 200px;
+    height: 250px;
+}
+.text{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'PT Serif', serif;
+}
+@import url('https://fonts.googleapis.com/css2? family= PT+Serif & display=swap');
+
+    
+    
