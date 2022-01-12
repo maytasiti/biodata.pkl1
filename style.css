@@ -49,12 +49,15 @@ header{
 }
 .ig:hover{
     color: rgb(255, 0, 179);
+    transform: scale(1.10);
 }
 .yt:hover{
     color: rgb(255,0,0);
+    transform: scale(1.10);
 }
 .fb:hover{
     color: rgb(0,38,255);
+    transform: scale(1.10);
 }
 .tanpadekorasi:hover{
     opacity: 0.5;
@@ -71,6 +74,10 @@ header{
 .wajah{
     width: 200px;
     height: 250px;
+    transition: 0.5s;
+}
+.wajah:hover{
+    transform: scale(1.15);
 }
 .text{
     font-size: 30px;

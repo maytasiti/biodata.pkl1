@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(watercolor.jpg);
+    height: 90vh;
+    background-size: cover;
+
+}
+
+header{
+    background-color: #3aafb9;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list li{
+    text-decoration: none;
+    display: flex;
+    margin-left: 50px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Seculer One' sans-serif;
+    transition: 0.5s;
+}
+
+.list li a:hover{
+  color: #22757c;
+
+}
+
+.judula{
+    text-decoration: none;
+}
+
+.judul{
+    font-family: 'Seculer One', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Orelega One', kursif;
+    font-family: 'PT Serif', serif;
+}
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wf{
+    margin-top: 300px;
+}
+@import url('https://fonts.googleapis.com/css2? family= Heebo:wght@100 & keluarga= Gratis+Baskerville &keluarga= Orelega+Satu &family= PT+Serif & display=swap');
